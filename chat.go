@@ -15,8 +15,7 @@ import (
 func main() {
 
 	// 获取 OpenAI API Key
-	//apiKey := os.Getenv("OPENAI_API_KEY")
-	apiKey := "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"
+	apiKey := os.Getenv("OPENAI_API_KEY")
 
 	if apiKey == "" {
 		fmt.Println("请设置 OPENAI_API_KEY 环境变量")
